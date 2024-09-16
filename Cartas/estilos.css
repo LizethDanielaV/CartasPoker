@@ -1,0 +1,69 @@
+.contenedorCartas{
+    display: flex;
+    flex-wrap: wrap;
+    width: 800px;
+}
+
+.contenIndividual{
+    width: auto; /*para que se ajuste automaticamente la imagen segun la altura que le di*/
+    height: 214px;
+    padding: 10px;
+}
+
+.contenIndividual img{
+    width: 100% ;
+    height: 100%;
+    object-fit: contain;
+}
+.contenedorGlobal{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header{
+    height: 159px;
+    background-color: #343A40;
+}
+header img{
+    width: 100% ;
+    height: 100%;
+    object-fit: contain;
+}
+
+.conteCuerpo{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contenedor2{
+    display: flex;
+    flex-direction: column; 
+}
+.conteTabla{
+    margin-top: 20px;
+}
+table {
+    border-collapse: collapse; /* Hace que los bordes se unan en una sola línea */
+    width: 100%; /* Ajusta el ancho de la tabla al 100% del contenedor */
+}
+
+th, td {
+    border: 1px solid black; /* Define un borde sólido de 1px de grosor y color negro para celdas y encabezados */
+    padding: 8px; /* Añade espacio interior a las celdas */
+    text-align: left; /* Alinea el texto a la izquierda dentro de las celdas */
+}
+
+th {
+    background-color: #f2f2f2; /* Cambia el color de fondo de los encabezados */
+    font-weight: bold; /* Establece el texto en negrita */
+}
+
+thead {
+    border-bottom: 2px solid black; /* Añade un borde más grueso en la parte inferior del encabezado */
+}
+.conteFormulario{
+    margin-top: 20px;
+    border-radius: 10px; 
+    padding: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}

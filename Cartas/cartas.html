@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="estilos.css" rel="stylesheet" />
+    <title>Cartas Poker</title>
+  </head>
+  <body>
+    <div class="contenedorGlobal">
+      <header>
+        <img src="../img/logo.png" alt="Poker Club" />
+      </header>
+      <div class="conteCuerpo">
+        <div class="contenedorCartas">
+          <div class="contenIndividual" data-numCarta="1">
+            <img src="../img/1.png" />
+          </div>
+          <div class="contenIndividual" data-numCarta="2">
+            <img src="../img/2.png" />
+          </div>
+          <div class="contenIndividual" data-numCarta="3">
+            <img src="../img/3.png" />
+          </div>
+          <div class="contenIndividual" data-numCarta="4">
+            <img src="../img/4.png" />
+          </div>
+          <div class="contenIndividual" data-numCarta="5">
+            <img src="../img/5.png" />
+          </div>
+          <div class="contenIndividual" data-numCarta="6">
+            <img src="../img/6.png" />
+          </div>
+          <div class="contenIndividual" data-numCarta="7">
+            <img src="../img/7.png" />
+          </div>
+          <div class="contenIndividual" data-numCarta="8">
+            <img src="../img/8.png" />
+          </div>
+          <div class="contenIndividual" data-numCarta="9">
+            <img src="../img/9.png" />
+          </div>
+          <div class="contenIndividual" data-numCarta="10">
+            <img src="../img/10.png" />
+          </div>
+          <div class="contenIndividual" data-numCarta="11">
+            <img src="../img/11.png" />
+          </div>
+          <div class="contenIndividual" data-numCarta="12">
+            <img src="../img/12.png" />
+          </div>
+          <div class="contenIndividual" data-numCarta="13">
+            <img src="../img/13.png" />
+          </div>
+        </div>
+        <div class="contenedor2">
+          <div class="conteTabla">
+            <table id="tabla">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Carta</th>
+                  <th>Cant</th>
+                </tr>
+              </thead>
+              <tbody id="bodyTabla"></tbody>
+            </table>
+          </div>
+          <div class="conteFormulario">
+            <h2>Registro de Cartas</h2>
+            <form id="formu">
+              <p>Numero</p>
+              <input type="text" placeholder="Ingrese el numero" id="numero" />
+              <p>Debe ingresar un numero del 1 al 13</p>
+              <p>Carta</p>
+              <input
+                type="text"
+                placeholder="Descripción de la carta"
+                id="descripcion"
+              />
+              <input type="submit" value="Guardar" />
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="cartas.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </body>
+</html>
